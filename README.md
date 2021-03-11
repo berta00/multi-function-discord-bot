@@ -1,6 +1,7 @@
 # aternosBot
 Un bot in python che legge i log e se qualcuno fa qualcosa di sbagliato (tipo mettersi in creativa o givvare cose) banna gente. Farà anche altre cose probabilmente ma vedremo.
 
+<br><br>
 
 <h2>Librerie:</h2>
 <h3>
