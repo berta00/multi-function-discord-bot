@@ -8,3 +8,8 @@ Un bot in python che legge i log e se qualcuno fa qualcosa di sbagliato (tipo me
 - <a href="https://pypi.org/project/selenium/">selenim</a>                    <br>
 - <a href="https://pypi.org/project/simple-colors/">simple_colors</a>
 </h3>
+<br>
+<hr>
+<h2>Come avviarlo:</h2>
+<h3>$git clone ...</h3>
+<h3>python3 main.py</h3>
