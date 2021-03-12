@@ -11,5 +11,5 @@ Un bot in python che legge i log e se qualcuno fa qualcosa di sbagliato (tipo me
 <br>
 <hr>
 <h2>Come avviarlo:</h2>
-<p><a style="color: yellow;">$</a> git clone ...</p>
-<p><a style="color: yellow;">$</a> python3 main.py</p>
+<p><a style="color: yellow">$</a> gh repo clone Alienozzo/aternosBot</p>
+<p><a style="color: yellow">$</a> python3 main.py</p>
