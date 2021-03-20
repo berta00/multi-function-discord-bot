@@ -1,0 +1,65 @@
+1616186914236	geckodriver	INFO	Listening on 127.0.0.1:48261
+1616186915239	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile48rtvM"
+1616186917413	Marionette	INFO	Listening on port 40363
+1616186917449	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616186930149	Marionette	INFO	Stopped listening on port 40363
+1616186956003	geckodriver	INFO	Listening on 127.0.0.1:50383
+1616186956008	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejkVsZd"
+1616186957818	Marionette	INFO	Listening on port 42533
+1616186957914	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616186966731	Marionette	INFO	Stopped listening on port 42533
+1616187244941	geckodriver	INFO	Listening on 127.0.0.1:55259
+1616187244945	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiley6Y8sd"
+1616187246419	Marionette	INFO	Listening on port 37609
+1616187246448	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616187259067	Marionette	INFO	Stopped listening on port 37609
+1616187367890	geckodriver	INFO	Listening on 127.0.0.1:55425
+1616187367893	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileX8sMDx"
+1616187370001	Marionette	INFO	Listening on port 33789
+1616187370102	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616187429719	geckodriver	INFO	Listening on 127.0.0.1:39017
+1616187429722	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilegTWPam"
+1616187431321	Marionette	INFO	Listening on port 39817
+1616187431337	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616187448875	Marionette	INFO	Stopped listening on port 39817
+1616187471572	geckodriver	INFO	Listening on 127.0.0.1:33251
+1616187471575	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilecwP3ED"
+1616187473019	Marionette	INFO	Listening on port 40497
+1616187473080	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616187483296	Marionette	INFO	Stopped listening on port 40497
+1616187549880	geckodriver	INFO	Listening on 127.0.0.1:46577
+1616187549884	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile59zNIc"
+1616187551306	Marionette	INFO	Listening on port 46751
+1616187551389	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616187564046	Marionette	INFO	Stopped listening on port 46751
+1616187601930	geckodriver	INFO	Listening on 127.0.0.1:48543
+1616187601934	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile6Nxs6y"
+1616187603363	Marionette	INFO	Listening on port 43487
+1616187603438	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616187614300	Marionette	INFO	Stopped listening on port 43487
+1616187804411	Marionette	INFO	Stopped listening on port 33789
+1616188365882	geckodriver	INFO	Listening on 127.0.0.1:57341
+1616188365886	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiley6W9jS"
+1616188367368	Marionette	INFO	Listening on port 45897
+1616188367390	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 174: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 208}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 208}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 174: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 208}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 208}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 174: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 208}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 208}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1616188392739	Marionette	INFO	Stopped listening on port 45897
+1616188551240	geckodriver	INFO	Listening on 127.0.0.1:54167
+1616188551244	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1pVL7R"
+1616188553289	Marionette	INFO	Listening on port 44347
+1616188553351	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 288: NS_ERROR_FAILURE: Should pass a non-null uri
+1616188615929	Marionette	INFO	Stopped listening on port 44347
+1616188668613	geckodriver	INFO	Listening on 127.0.0.1:42925
+1616188668617	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileH43K6g"
+1616188670089	Marionette	INFO	Listening on port 42721
+1616188670121	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616188718048	Marionette	INFO	Stopped listening on port 42721
