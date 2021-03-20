@@ -33,4 +33,5 @@ nomeServer = input("inserisci lo username: ")             # implementala nella i
 passwordServer = input("inserisci la password: ")         # implementala nella interfaccia
 
 connessioneAlServer(driver, nomeServer, passwordServer)   # implementala nella interfaccia
-esciDaAternos()                                           # implementala nella interfaccia
+
+esciDaAternos()                                           # implementala nella interfacciaì
