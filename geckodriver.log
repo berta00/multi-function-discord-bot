@@ -280,3 +280,255 @@ JavaScript error: https://cd.connatix.com/connatix.player.js, line 1: NS_ERROR_N
 1616328666770	Marionette	INFO	Listening on port 42511
 1616328666895	Marionette	WARN	TLS certificate errors will be ignored for this session
 1616328704623	Marionette	INFO	Stopped listening on port 42511
+1616329690892	geckodriver	INFO	Listening on 127.0.0.1:59123
+1616329690901	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilesBHNlg"
+1616329695177	Marionette	INFO	Listening on port 37103
+1616329695223	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 288: NS_ERROR_FAILURE: Should pass a non-null uri
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616329789677	Marionette	INFO	Stopped listening on port 37103
+1616329834217	geckodriver	INFO	Listening on 127.0.0.1:43183
+1616329834225	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileAkJIvA"
+1616329838614	Marionette	INFO	Listening on port 42715
+1616329838642	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 558"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:558:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 558, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 558: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: https://cd.connatix.com/connatix.player.js, line 17: NS_ERROR_NOT_INITIALIZED: 
+1616329957201	Marionette	INFO	Stopped listening on port 42715
+1616329972864	geckodriver	INFO	Listening on 127.0.0.1:56569
+1616329972872	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileD71FBo"
+1616329978146	Marionette	INFO	Listening on port 36975
+1616329978202	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616330124154	geckodriver	INFO	Listening on 127.0.0.1:44087
+1616330124162	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemtJmki"
+1616330129541	Marionette	INFO	Listening on port 38629
+1616330129589	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616330133817	Marionette	INFO	Stopped listening on port 38629
+1616330141487	Marionette	INFO	Stopped listening on port 36975
+1616330151974	geckodriver	INFO	Listening on 127.0.0.1:45785
+1616330151981	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilex7fLcE"
+1616330157245	Marionette	INFO	Listening on port 40597
+1616330157318	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 288: NS_ERROR_FAILURE: Should pass a non-null uri
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+JavaScript error: https://cd.connatix.com/connatix.player.js, line 17: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://cd.connatix.com/connatix.player.js, line 1: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://cd.connatix.com/connatix.player.js, line 17: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://cd.connatix.com/connatix.player.js, line 17: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://cd.connatix.com/connatix.player.js, line 17: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://cd.connatix.com/connatix.player.js, line 17: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://cd.connatix.com/connatix.player.js, line 17: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://cd.connatix.com/connatix.player.js, line 17: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://cd.connatix.com/connatix.player.js, line 17: NS_ERROR_NOT_INITIALIZED: 
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 558"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:558:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 558, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 558: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:162:37\nonPacket@resource://devtools/server/devtools-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+1616330296325	Marionette	INFO	Stopped listening on port 40597
+1616330334801	geckodriver	INFO	Listening on 127.0.0.1:46409
+1616330334809	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileq9v4Z7"
+1616330340216	Marionette	INFO	Listening on port 42157
+1616330340233	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616330355130	geckodriver	INFO	Listening on 127.0.0.1:48537
+1616330355139	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZ4hZ98"
+1616330361833	Marionette	INFO	Listening on port 37059
+1616330361872	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616330392514	Marionette	INFO	Stopped listening on port 37059
+1616330979832	geckodriver	INFO	Listening on 127.0.0.1:39349
+1616330979841	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilezpAeBi"
+1616330983797	Marionette	INFO	Listening on port 33535
+1616330983858	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616331094195	Marionette	INFO	Stopped listening on port 33535
+1616331104437	geckodriver	INFO	Listening on 127.0.0.1:48493
+1616331104447	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePgtq0R"
+1616331109946	Marionette	INFO	Listening on port 46507
+1616331109980	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616331113133	Marionette	INFO	Stopped listening on port 46507
+1616331139546	geckodriver	INFO	Listening on 127.0.0.1:55075
+1616331139553	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileelh25z"
+1616331145362	Marionette	INFO	Listening on port 38817
+1616331145458	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616331194713	Marionette	INFO	Stopped listening on port 38817
+1616331228967	geckodriver	INFO	Listening on 127.0.0.1:51939
+1616331228977	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile6uUCNk"
+1616331233151	Marionette	INFO	Listening on port 44377
+1616331233200	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616331322597	Marionette	INFO	Stopped listening on port 44377
+1616331350832	geckodriver	INFO	Listening on 127.0.0.1:50235
+1616331350839	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVZHdlY"
+1616331354539	Marionette	INFO	Listening on port 43167
+1616331354561	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616331396384	Marionette	INFO	Stopped listening on port 43167
+1616331429194	geckodriver	INFO	Listening on 127.0.0.1:55909
+1616331429201	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWPlVBm"
+1616331434540	Marionette	INFO	Listening on port 41927
+1616331434643	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616331477888	Marionette	INFO	Stopped listening on port 41927
+1616333606201	geckodriver	INFO	Listening on 127.0.0.1:44003
+1616333606209	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQnXrgn"
+1616333612115	Marionette	INFO	Listening on port 34565
+1616333612153	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:162:37\nonPacket@resource://devtools/server/devtools-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:'';'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 659"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:659:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:509:10
+_fetchURLContents@resource://devtools/server/actors/utils/TabSources.js:580:22
+urlContents@resource://devtools/server/actors/utils/TabSources.js:547:17
+_resurrectSource@resource://devtools/server/actors/thread.js:1998:69
+addAllSources@resource://devtools/server/actors/thread.js:1382:14
+onSources@resource://devtools/server/actors/thread.js:1388:10
+onPacket@resource://devtools/server/devtools-server-connection.js:380:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 659, column: 0
+console.error: ({})
+console.warn: "Inspector destroyed while executing onReflow callback"
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 659: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:'';'
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+console.error: "Tried to send a 'newSource' event on an already destroyed actor 'thread'"
+console.error: "Tried to send a 'newSource' event on an already destroyed actor 'thread'"
+console.error: "Tried to send a 'newSource' event on an already destroyed actor 'thread'"
+console.error: "Tried to send a 'newSource' event on an already destroyed actor 'thread'"
+console.error: "Tried to send a 'newSource' event on an already destroyed actor 'thread'"
+console.error: "Tried to send a 'newSource' event on an already destroyed actor 'thread'"
+console.error: "Tried to send a 'newSource' event on an already destroyed actor 'thread'"
+console.error: "Tried to send a 'newSource' event on an already destroyed actor 'thread'"
+console.error: "Tried to send a 'newSource' event on an already destroyed actor 'thread'"
+console.error: "Tried to send a 'newSource' event on an already destroyed actor 'thread'"
+console.error: "Tried to send a 'newSource' event on an already destroyed actor 'thread'"
+console.error: "Tried to send a 'newSource' event on an already destroyed actor 'thread'"
+console.error: "Tried to send a 'newSource' event on an already destroyed actor 'thread'"
+console.error: "Tried to send a 'newSource' event on an already destroyed actor 'thread'"
+console.error: "Tried to send a 'newSource' event on an already destroyed actor 'thread'"
+console.error: "Tried to send a 'newSource' event on an already destroyed actor 'thread'"
+console.error: "Tried to send a 'newSource' event on an already destroyed actor 'thread'"
+console.error: "Tried to send a 'newSource' event on an already destroyed actor 'thread'"
+console.error: "Tried to send a 'newSource' event on an already destroyed actor 'thread'"
+console.error: "Tried to send a 'newSource' event on an already destroyed actor 'thread'"
+console.error: "Tried to send a 'newSource' event on an already destroyed actor 'thread'"
+console.error: "Tried to send a 'newSource' event on an already destroyed actor 'thread'"
+console.error: "Tried to send a 'newSource' event on an already destroyed actor 'thread'"
+console.error: "Tried to send a 'newSource' event on an already destroyed actor 'thread'"
+console.error: "Tried to send a 'newSource' event on an already destroyed actor 'thread'"
+console.error: "Tried to send a 'newSource' event on an already destroyed actor 'thread'"
+console.error: "Tried to send a 'newSource' event on an already destroyed actor 'thread'"
+console.error: "Tried to send a 'newSource' event on an already destroyed actor 'thread'"
+console.error: "Tried to send a 'newSource' event on an already destroyed actor 'thread'"
+console.error: "Tried to send a 'newSource' event on an already destroyed actor 'thread'"
+console.error: "Tried to send a 'newSource' event on an already destroyed actor 'thread'"
+console.error: "Tried to send a 'newSource' event on an already destroyed actor 'thread'"
+console.error: "Tried to send a 'newSource' event on an already destroyed actor 'thread'"
+console.error: "Tried to send a 'newSource' event on an already destroyed actor 'thread'"
+console.error: "Tried to send a 'newSource' event on an already destroyed actor 'thread'"
+console.error: "Tried to send a 'newSource' event on an already destroyed actor 'thread'"
+console.error: "Tried to send a 'newSource' event on an already destroyed actor 'thread'"
+console.error: "Tried to send a 'newSource' event on an already destroyed actor 'thread'"
+console.error: "Tried to send a 'newSource' event on an already destroyed actor 'thread'"
+console.error: "Tried to send a 'newSource' event on an already destroyed actor 'thread'"
+console.error: "Tried to send a 'newSource' event on an already destroyed actor 'thread'"
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 558"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:558:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 558, column: 0
+console.error: ({})
+SourceActor threw an exception: Error: Failed to fetch https://cdn.snigelweb.com/sncmp/latest/sncmp.min.js. Code 2147746065.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:547:16
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 547, column: 16
+console.error: (new Error("Failed to fetch https://cdn.snigelweb.com/sncmp/latest/sncmp.min.js. Code 2147746065.", "resource://devtools/shared/DevToolsUtils.js", 547))
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5B000D,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 558: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 547: Error: Failed to fetch https://cdn.snigelweb.com/sncmp/latest/sncmp.min.js. Code 2147746065.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616333721619	Marionette	INFO	Stopped listening on port 34565
+1616333751510	geckodriver	INFO	Listening on 127.0.0.1:39319
+1616333751517	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileh4RD9Z"
+1616333755522	Marionette	INFO	Listening on port 43657
+1616333755864	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616333793388	Marionette	INFO	Stopped listening on port 43657
+1616333820426	geckodriver	INFO	Listening on 127.0.0.1:59395
+1616333820434	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2oib8U"
+1616333824905	Marionette	INFO	Listening on port 46269
+1616333824947	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616333914677	Marionette	INFO	Stopped listening on port 46269
+1616333937521	geckodriver	INFO	Listening on 127.0.0.1:37043
+1616333937534	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCfjJM0"
+1616333942833	Marionette	INFO	Listening on port 36193
+1616333942865	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616334004929	Marionette	INFO	Stopped listening on port 36193
+1616334012174	geckodriver	INFO	Listening on 127.0.0.1:54775
+1616334012182	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejOfNtw"
+1616334016880	Marionette	INFO	Listening on port 37599
+1616334016934	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616334055420	Marionette	INFO	Stopped listening on port 37599
+1616334055842	geckodriver	INFO	Listening on 127.0.0.1:50881
+1616334055850	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelqxZYi"
+1616334060711	Marionette	INFO	Listening on port 43049
+1616334060898	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616334136062	geckodriver	INFO	Listening on 127.0.0.1:42051
+1616334136071	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileNGqdYN"
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 2234: TypeError: subject.QueryInterface is not a function
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1616334139312	Marionette	INFO	Stopped listening on port 43049
+console.error: Region.jsm: "Failed to fetch region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+1616334161339	geckodriver	INFO	Listening on 127.0.0.1:54089
+1616334161346	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQmUe0D"
+1616334166188	Marionette	INFO	Listening on port 37489
+1616334166323	Marionette	WARN	TLS certificate errors will be ignored for this session

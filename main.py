@@ -46,17 +46,26 @@ def connessioneAlServer(driver, username, password):
     #entra nel server
     input4 = driver.find_element_by_xpath('/html/body/div/main/section/div/div[2]/div')
     input4.click()
-    time.sleep(1)
+    time.sleep(1.5)
     cookieBottone = driver.find_element_by_xpath('//*[@id="accept-choices"]')
     cookieBottone.click()
     time.sleep(1)
 
 def accendiIlServer():
+    #avvia
     bottoneAvvio = driver.find_element_by_xpath('//*[@id="start"]')
     bottoneAvvio.click()
-    time.sleep(0.5)
+    time.sleep(1)
     confermaNotifiche = driver.find_element_by_xpath('/html/body/div[2]/main/div/div/div/main/div/a[1]')
     confermaNotifiche.click()
+    #controlla se serve confermare
+    divConfermaMostrato = False
+    while divConfermaMostrato == False:
+        divConfermaMostrato = driver.find_element_by_xpath('//*[@id="confirm"]').is_displayed()
+    driver.find_element_by_xpath('//*[@id="confirm"]').click()
+    print()
+    print("Confermato")
+
 
 def esciDaAternos():
     driver.quit()
