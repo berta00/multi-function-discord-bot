@@ -14,3 +14,4 @@ connessioneAlServer(driver, nomeServer, passwordServer)   # implementala nella i
 accendiIlServer()                                         # implementala nella interfaccia
 # esciDaAternos()                                         # implementala nella interfaccia
 #marconano
+#ciao
