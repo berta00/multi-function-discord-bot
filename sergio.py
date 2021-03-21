@@ -85,3 +85,4 @@ def accendiIlServer():
 
 def esciDaAternos():
     driver.quit()
+    
