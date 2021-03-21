@@ -1,5 +1,6 @@
 import time
 import os
+#controlla o installa le dipendenze
 os.system("pip install selenium")
 os.system("pip install simple_colors")
 
@@ -12,6 +13,7 @@ b = ""      # nella interfaccia poi toglierle
 
 # selenium
 
+#webdriver
 locazioneDriver = os.getcwd() + "/geckodriver"
 driver = webdriver.Firefox(executable_path=str(locazioneDriver))
 os.system("clear")
@@ -65,6 +67,17 @@ def accendiIlServer():
     driver.find_element_by_xpath('//*[@id="confirm"]').click()
     print()
     print("Confermato")
+    #controlla se è online, se è online continua ad eseguire il codice sotto
+    online = False
+    while online == False:
+        online = driver.get_element_by_xpath('/html/body/div[2]/main/section/div[3]/div[4]/div[1]/div/span[2]/span').is_displayed()
+    print("il sevrer è online")
+    #controlla c'è gentre dentro al server, se c'è gente continua ad eseguire il codice sotto
+    popolato = False
+    while popolato == False:
+        popolato = driver.find_element_by_xpath('/html/body/div[2]/main/section/div[3]/div[4]/div[1]/div/span[1]').is_displayed()
+        print("attenzione, non c'è nessuno nel server")
+    
 
 
 def esciDaAternos():
