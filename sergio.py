@@ -16,7 +16,7 @@ if sistemaOperativo == "Linux":
     locazioneDriver = os.getcwd() + "/geckodriver"
     driver = webdriver.Firefox(executable_path=locazioneDriver)
 elif sistemaOperativo == "Windows":
-    locazioneDriver = os.getcwd() + "/geckodriver.exe
+    locazioneDriver = os.getcwd() + "/geckodriver.exe"
     driver = webdriver.Firefox(executable_path=locazioneDriver)
 
 os.system("clear")
@@ -32,10 +32,10 @@ def connessioneAlServer(driver, username, password):
     input3.click()
     time.sleep(1)
     #controllo credenziali
-    if driver.title == "Servers | Aternos | Free Minecraft Server":
+    if driver.title == "Servers | Aternos | Free Minecraft Server" or driver.title == "Server | Aternos | Server Minecraft gratis":
         print()
         print(simple_colors.green("loggato correttamente"))
-    elif driver.title == "Login or Sign up | Aternos | Free Minecraft Server":
+    elif driver.title == "Login or Sign up | Aternos | Free Minecraft Server" or driver.title == "Accedi o registrati | Aternos | Server Minecraft gratis":
         os.system("clear")
         print(simple_colors.red("hai sbagliato credenziali, rimettile:"))
         print()
@@ -70,10 +70,11 @@ def accendiIlServer():
     driver.find_element_by_xpath('//*[@id="confirm"]').click()
     print()
     print("Confermato")
+    print()
     #controlla se è online, se è online continua ad eseguire il codice sotto
     online = False
     while online == False:
-        online = driver.get_element_by_xpath('/html/body/div[2]/main/section/div[3]/div[4]/div[1]/div/span[2]/span').is_displayed()
+        online = driver.find_element_by_xpath('/html/body/div[2]/main/section/div[3]/div[4]/div[1]/div/span[2]/span').is_displayed()
     print("il sevrer è online")
     #controlla c'è gentre dentro al server, se c'è gente continua ad eseguire il codice sotto
     popolato = False
@@ -85,4 +86,3 @@ def accendiIlServer():
 
 def esciDaAternos():
     driver.quit()
-    
