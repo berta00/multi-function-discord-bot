@@ -13,3 +13,4 @@ passwordServer = input("inserisci la password: ")         # implementala nella i
 connessioneAlServer(driver, nomeServer, passwordServer)   # implementala nella interfaccia
 accendiIlServer()                                         # implementala nella interfaccia
 # esciDaAternos()                                         # implementala nella interfaccia
+#marconano
