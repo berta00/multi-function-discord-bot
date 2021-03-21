@@ -77,7 +77,3 @@ def accendiIlServer():
 
 def esciDaAternos():
     driver.quit()
-
-    #oiteyfeotgdfohguiuidfghifdu
-    #sssssssssss
-    #dddddddddddddd
