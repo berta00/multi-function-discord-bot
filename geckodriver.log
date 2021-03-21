@@ -1049,3 +1049,8 @@ console.error: "Error while calling actor 'tabDescriptor's method 'getTarget'" "
 console.log: "Request to connect to TabDescriptor \"undefined\" failed: Error: Protocol error (tabDestroyed): Tab destroyed while connecting to the frame from: server0.conn1.tabDescriptor1"
 JavaScript error: resource://devtools/client/framework/target.js, line 48: TypeError: target is null
 1616340356716	Marionette	INFO	Stopped listening on port 40931
+1616352218067	geckodriver	INFO	Listening on 127.0.0.1:35163
+1616352218070	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilek4BXgq"
+1616352219682	Marionette	INFO	Listening on port 33839
+1616352219775	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616352239111	Marionette	INFO	Stopped listening on port 33839
