@@ -24,9 +24,13 @@ def connessioneAlServer(driver, username, password):
     input1.send_keys(username)
     input2.send_keys(password)
     input3.click()
+    time.sleep(1)
     if driver.title == "Servers | Aternos | Free Minecraft Server":
+        print()
         print("loggato correttamente")
     elif driver.title == "Login or Sign up | Aternos | Free Minecraft Server":
+        print()
+        print("hai sbagliato credenziali, rimettile:")
         nomeServer = input("inserisci lo username: ")
         passwordServer = input("inserisci la password: ")
         connessioneAlServer(driver, nomeServer, passwordServer)
@@ -34,7 +38,11 @@ def connessioneAlServer(driver, username, password):
         print()
         print("qualcosa è andato storto!")
         esciDaAternos()
-    input4 = find_element_by_xpath('/html/body/div/main/section/div/div[2]/div/div[1]')
+    input4 = driver.find_element_by_xpath('/html/body/div/main/section/div/div[2]/div')
+    input4.click()
+    time.sleep(1)
+    cookieBottone = driver.find_element_by_xpath('//*[@id="accept-choices"]')
+    cookieBottone.click()
 
 def esciDaAternos():
     driver.quit()

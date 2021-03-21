@@ -136,3 +136,51 @@ console.error: "Store does not have a valid reducer. Make sure the argument pass
 1616260571558	Marionette	WARN	TLS certificate errors will be ignored for this session
 console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
 1616260629085	Marionette	INFO	Stopped listening on port 44433
+1616326470521	geckodriver	INFO	Listening on 127.0.0.1:49589
+1616326471527	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWi9ptU"
+1616326476223	Marionette	INFO	Listening on port 33409
+1616326476252	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 288: NS_ERROR_FAILURE: Should pass a non-null uri
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+1616326531954	Marionette	INFO	Stopped listening on port 33409
+1616326589479	geckodriver	INFO	Listening on 127.0.0.1:38721
+1616326589486	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehaGDBe"
+1616326593873	Marionette	INFO	Listening on port 39435
+1616326593917	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 288: NS_ERROR_FAILURE: Should pass a non-null uri
+1616326628510	Marionette	INFO	Stopped listening on port 39435
+1616326910320	geckodriver	INFO	Listening on 127.0.0.1:44661
+1616326910329	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWex11v"
+1616326914774	Marionette	INFO	Listening on port 39051
+1616326914871	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 288: NS_ERROR_FAILURE: Should pass a non-null uri
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+1616326964934	Marionette	INFO	Stopped listening on port 39051
+1616327033036	geckodriver	INFO	Listening on 127.0.0.1:58175
+1616327033043	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePBeW7O"
+1616327036669	Marionette	INFO	Listening on port 40031
+1616327036757	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 288: NS_ERROR_FAILURE: Should pass a non-null uri
+1616327066857	Marionette	INFO	Stopped listening on port 40031
+1616327080474	geckodriver	INFO	Listening on 127.0.0.1:47381
+1616327080481	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4bPgh2"
+1616327084301	Marionette	INFO	Listening on port 36723
+1616327084398	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+1616327140767	geckodriver	INFO	Listening on 127.0.0.1:33723
+1616327140775	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileNqTLjc"
+1616327145118	Marionette	INFO	Listening on port 35991
+1616327145204	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 288: NS_ERROR_FAILURE: Should pass a non-null uri
+1616327195729	Marionette	INFO	Stopped listening on port 35991
+1616327215563	geckodriver	INFO	Listening on 127.0.0.1:33205
+1616327215570	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilegKidV2"
+1616327220966	Marionette	INFO	Listening on port 46859
+1616327221004	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 288: NS_ERROR_FAILURE: Should pass a non-null uri
+1616327256410	Marionette	INFO	Stopped listening on port 46859
+1616327348936	geckodriver	INFO	Listening on 127.0.0.1:53997
+1616327348944	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilercN1Zj"
+1616327354644	Marionette	INFO	Listening on port 43115
+1616327354689	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616327435481	Marionette	INFO	Stopped listening on port 43115
