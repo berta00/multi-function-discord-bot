@@ -9,7 +9,7 @@ from sergio import *
 
 nomeServer = input("inserisci lo username: ")             # implementala nella interfaccia
 passwordServer = input("inserisci la password: ")         # implementala nella interfaccia
-
+#marco gay
 connessioneAlServer(driver, nomeServer, passwordServer)   # implementala nella interfaccia
 accendiIlServer()                                         # implementala nella interfaccia
 # esciDaAternos()                                         # implementala nella interfaccia
