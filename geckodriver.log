@@ -1112,3 +1112,8 @@ console.error: "Error while calling actor 'layout's method 'getGrids'" "null has
 console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:162:37\nonPacket@resource://devtools/server/devtools-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
 console.error: "Error while calling actor 'layout's method 'getGrids'" "null has no properties"
 console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:162:37\nonPacket@resource://devtools/server/devtools-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+1616427264205	geckodriver	INFO	Listening on 127.0.0.1:45381
+1616427264208	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileuZwwN1"
+1616427265796	Marionette	INFO	Listening on port 41447
+1616427265832	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
