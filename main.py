@@ -3,7 +3,7 @@ import os
 #controlla o installa le dipendenze
 os.system("pip install selenium")
 os.system("pip install simple_colors")
-import simple_colors
+
 from sergio import *
 print("buongiorno")
 print ("hai scleto")
