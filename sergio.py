@@ -77,14 +77,12 @@ def accendiIlServer():
         online = driver.find_element_by_xpath('/html/body/div[2]/main/section/div[3]/div[4]/div[1]/div/span[2]/span').is_displayed()
     print("il sevrer è online")
     #controlla c'è gentre dentro al server, se c'è gente continua ad eseguire il codice sotto
+    time.sleep(300)
     popolato = False
     while popolato == False:
-        popolato = driver.find_element_by_xpath('/html/body/div[2]/main/section/div[3]/div[4]/div[1]/div/span[1]').is_displayed()
-        print("attenzione, non c'è nessuno nel server")
+        print("attenzione, non c'è nessuno nel server da 5 minuti, lo devo riavviare")
     
 
 
 def esciDaAternos():
     driver.quit()
-
-     #dygaofagfoygofady
