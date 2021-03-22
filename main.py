@@ -20,7 +20,7 @@ print("""
  ██████  ██████  ██   ████    ██    ██   ██  ██████  ███████ ███████ ██   ██     ██   ██   ██    ███████ ██   ██ ██   ████  ██████  ███████ 
                                                                                                                                             
                                                                                                                                             """)
-nomeServer = input("inserisci lo username: ")             # implementala nella interfaccia
+nomeServer = input("Inserisci l'id del server: ")             # implementala nella interfaccia
 passwordServer = input("inserisci la password: ")         # implementala nella interfaccia
 print ("")
 
