@@ -6,14 +6,28 @@ os.system("pip install selenium==4.0.0a1")
 os.system("pip install simple_colors")
 
 from sergio import *
-print("buongiorno")
-print ("hai scleto")
-print ("Questo bot ha diverse funzionalità:")
+print("""
+          █████ ████████ ███████ ██████  ███    ██  ██████  ███████     ██████   ██████ ████████                                                     
+         ██   ██   ██    ██      ██   ██ ████   ██ ██    ██ ██          ██   ██ ██    ██   ██                                                        
+         ███████   ██    █████   ██████  ██ ██  ██ ██    ██ ███████     ██████  ██    ██   ██                                                        
+         ██   ██   ██    ██      ██   ██ ██  ██ ██ ██    ██      ██     ██   ██ ██    ██   ██                                                        
+         ██   ██   ██    ███████ ██   ██ ██   ████  ██████  ███████     ██████   ██████    ██  
+
+ ██████  ██████  ███    ██ ████████ ██████   ██████  ██      ██       █████       █████ ████████ ███████ ██████  ███    ██  ██████  ███████ 
+██      ██    ██ ████   ██    ██    ██   ██ ██    ██ ██      ██      ██   ██     ██   ██   ██    ██      ██   ██ ████   ██ ██    ██ ██      
+██      ██    ██ ██ ██  ██    ██    ██████  ██    ██ ██      ██      ███████     ███████   ██    █████   ██████  ██ ██  ██ ██    ██ ███████ 
+██      ██    ██ ██  ██ ██    ██    ██   ██ ██    ██ ██      ██      ██   ██     ██   ██   ██    ██      ██   ██ ██  ██ ██ ██    ██      ██ 
+ ██████  ██████  ██   ████    ██    ██   ██  ██████  ███████ ███████ ██   ██     ██   ██   ██    ███████ ██   ██ ██   ████  ██████  ███████ 
+                                                                                                                                            
+                                                                                                                                            """)
 nomeServer = input("inserisci lo username: ")             # implementala nella interfaccia
 passwordServer = input("inserisci la password: ")         # implementala nella interfaccia
-nocheat=input("questa funzione controlla che non vengano usati cheat ")
+print ("")
+
+
 connessioneAlServer(driver, nomeServer, passwordServer)   # implementala nella interfaccia
 accendiIlServer()                                         # implementala nella interfaccia
 # esciDaAternos()                                         # implementala nella interfaccia
+
 
 
