@@ -1,16 +1,24 @@
 import time
 import os
 import selenium
-from selenium import webdriver                                                                                                     # password: abeteswag17
+import simple_colors
+from platform import system
+from selenium import webdriver
 
-a = ""      # appena aggiungi la parte di login
-b = ""      # nella interfaccia poi toglierle
+
+#sistem operativo
+sistemaOperativo = str(system())
+
 
 # selenium
 
-#webdriver
-locazioneDriver = os.getcwd() + "/geckodriver"
-driver = webdriver.Firefox(executable_path=str(locazioneDriver))
+if sistemaOperativo == "Linux":
+    locazioneDriver = os.getcwd() + "/geckodriver"
+    driver = webdriver.Firefox(executable_path=locazioneDriver)
+elif sistemaOperativo == "Windows":
+    locazioneDriver = os.getcwd() + "/geckodriver.exe
+    driver = webdriver.Firefox(executable_path=locazioneDriver)
+
 os.system("clear")
 
 def connessioneAlServer(driver, username, password):
