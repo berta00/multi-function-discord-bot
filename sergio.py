@@ -64,7 +64,6 @@ def riavviaSeInattivo():
         print("attenzione, non c'è nessuno nel server da 5 minuti, lo devo riavviare")
         bottoneRiavvio.click()
 
-
 def accendiIlServer():
     #avvia
     bottoneAvvio = driver.find_element_by_xpath('//*[@id="start"]')
