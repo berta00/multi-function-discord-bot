@@ -51,16 +51,25 @@ def connessioneAlServer(driver, username, password):
     #entra nel server
     input4 = driver.find_element_by_xpath('/html/body/div/main/section/div/div[2]/div')
     input4.click()
-    time.sleep(1.5)
+    time.sleep(4)
     cookieBottone = driver.find_element_by_xpath('//*[@id="accept-choices"]')
     cookieBottone.click()
     time.sleep(1)
+
+def riavviaSeInattivo():
+    time.sleep(100)
+    bottoneRiavvio = driver.find_element_by_xpath('//*[@id="restart"]')
+    popolato = False
+    if popolato == False:
+        print("attenzione, non c'è nessuno nel server da 5 minuti, lo devo riavviare")
+        bottoneRiavvio.click()
+
 
 def accendiIlServer():
     #avvia
     bottoneAvvio = driver.find_element_by_xpath('//*[@id="start"]')
     bottoneAvvio.click()
-    time.sleep(1)
+    time.sleep(4)
     confermaNotifiche = driver.find_element_by_xpath('/html/body/div[2]/main/div/div/div/main/div/a[1]')
     confermaNotifiche.click()
     #controlla se serve confermare
@@ -74,14 +83,9 @@ def accendiIlServer():
     #controlla se è online, se è online continua ad eseguire il codice sotto
     online = False
     while online == False:
-        online = driver.find_element_by_xpath('/html/body/div[2]/main/section/div[3]/div[4]/div[1]/div/span[2]/span').is_displayed()
+        online = driver.find_element_by_xpath('//*[@id="stop"]').is_displayed()
     print("il sevrer è online")
-    #controlla c'è gentre dentro al server, se c'è gente continua ad eseguire il codice sotto
-    time.sleep(300)
-    popolato = False
-    while popolato == False:
-        print("attenzione, non c'è nessuno nel server da 5 minuti, lo devo riavviare")
-    
+    riavviaSeInattivo()
 
 
 def esciDaAternos():
