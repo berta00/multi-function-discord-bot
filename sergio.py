@@ -1,5 +1,6 @@
-import time
 import os
+import time
+import discord
 import selenium
 import simple_colors
 from platform import system
@@ -89,3 +90,8 @@ def accendiIlServer():
 
 def esciDaAternos():
     driver.quit()
+
+
+
+
+# discord
