@@ -9,7 +9,6 @@ from sergio import *
 from selenium import webdriver
 from discord.ext import commands
 
-
 #sistem operativo qualiò
 
 global drivers
@@ -17,12 +16,11 @@ global drivers
 if platform == "linux":
     locazioneDriver = os.getcwd() + "/geckodriver"
     drivers = webdriver.Firefox(executable_path=locazioneDriver)
-elif platform == "windows":
+    os.system("clear")
+elif platform == "win32" or platform == "win64":
     locazioneDriver = os.getcwd() + "/geckodriver.exe"
     drivers = webdriver.Firefox(executable_path=locazioneDriver)
-
-os.system("clear")
-
+    
 def connessioneAlServer(drivers, username, password):
     #connessione
     drivers.get("https://aternos.org/go/")
@@ -39,9 +37,7 @@ def connessioneAlServer(drivers, username, password):
         print(simple_colors.green("loggato correttamente"))
     elif drivers.title == "Login or Sign up | Aternos | Free Minecraft Server" or drivers.title == "Accedi o registrati | Aternos | Server Minecraft gratis":
         os.system("clear")
-        print(simple_colors.red("hai sbagliato credenziali, rimettile:"))
-        print()
-        serverOn(ctx)
+        
         esciDaAternos()
     else:
         print()

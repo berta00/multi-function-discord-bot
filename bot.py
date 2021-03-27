@@ -13,8 +13,7 @@ token = input("Metti il token del bot: ")
 
 os.system("clear")
 
-global username
-global password
+global client
 
 client = commands.Bot(command_prefix = 'ciro: ')
 
@@ -26,12 +25,13 @@ async def on_ready():
 @client.command()
 async def serverOn(ctx):
     await ctx.send("Oke, metti lo username:")
-    username = await client.wait_for("message")
+    username = await client.wait_for('message')
     print("username messo")
     await ctx.send("Oke, metti il password:")
-    password = await client.wait_for("message")
+    password = await client.wait_for('message')
     print("password messa")
-    await connessioneAlServer(drivers, username, password)
+
+    await connessioneAlServer(drivers, username.content, password.content)
 
 async def serverOff(ctx):
     await ctx.send("Okey capo")
