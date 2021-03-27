@@ -51,3 +51,23 @@ warn: SearchSettings: "get: No settings file exists, new profile?" (new Error(""
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1616431355317	Marionette	INFO	Listening on port 50696
 1616431355681	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616793453530	geckodriver	INFO	Listening on 127.0.0.1:59363
+1616793454533	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWRr1xP"
+1616793456531	Marionette	INFO	Listening on port 42561
+1616793456553	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 288: NS_ERROR_FAILURE: Should pass a non-null uri
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1616793958434	geckodriver	INFO	Listening on 127.0.0.1:41237
+1616793958438	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSNEKH2"
+1616793960761	Marionette	INFO	Listening on port 38535
+1616793960846	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 288: NS_ERROR_FAILURE: Should pass a non-null uri
+1616793998714	Marionette	INFO	Stopped listening on port 38535
+1616794081285	geckodriver	INFO	Listening on 127.0.0.1:37727
+1616794081288	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBzOPDL"
+1616794083393	Marionette	INFO	Listening on port 39627
+1616794083402	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 288: NS_ERROR_FAILURE: Should pass a non-null uri
+1616795330822	Marionette	INFO	Stopped listening on port 39627
