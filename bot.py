@@ -11,15 +11,13 @@ from discord.ext import commands
 
 token = input("Metti il token del bot: ")
 
-os.system("clear")
-
 global client
 
 client = commands.Bot(command_prefix = 'ciro: ')
 
 @client.event
 async def on_ready():
-    print(simple_colors.green('loggato'))
+    print(simple_colors.green('loggato in discord'))
     print()
 
 @client.command()
@@ -33,8 +31,13 @@ async def serverOn(ctx):
 
     await connessioneAlServer(drivers, username.content, password.content)
 
+@client.command()
 async def serverOff(ctx):
     await ctx.send("Okey capo")
     await esciDaAternos()
+
+@client.command()
+async def ruba(ctx):
+    await ctx.send("vado a rubare orologi ok")
 
 client.run(token)

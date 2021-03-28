@@ -20,7 +20,7 @@ if platform == "linux":
 elif platform == "win32" or platform == "win64":
     locazioneDriver = os.getcwd() + "/geckodriver.exe"
     drivers = webdriver.Firefox(executable_path=locazioneDriver)
-    
+
 def connessioneAlServer(drivers, username, password):
     #connessione
     drivers.get("https://aternos.org/go/")
@@ -34,15 +34,10 @@ def connessioneAlServer(drivers, username, password):
     #controllo credenziali
     if drivers.title == "Servers | Aternos | Free Minecraft Server" or drivers.title == "Server | Aternos | Server Minecraft gratis":
         print()
-        print(simple_colors.green("loggato correttamente"))
+        print(simple_colors.green("loggato in aternos"))
     elif drivers.title == "Login or Sign up | Aternos | Free Minecraft Server" or drivers.title == "Accedi o registrati | Aternos | Server Minecraft gratis":
-        os.system("clear")
-        
-        esciDaAternos()
-    else:
-        print()
-        print("qualcosa è andato storto!")
-        esciDaAternos()
+        # stampa password sbagliata
+        pass
     #entra nel server
     input4 = drivers.find_element_by_xpath('/html/body/div/main/section/div/div[2]/div')
     input4.click()
@@ -50,14 +45,21 @@ def connessioneAlServer(drivers, username, password):
     cookieBottone = drivers.find_element_by_xpath('//*[@id="accept-choices"]')
     cookieBottone.click()
     time.sleep(1)
+    accendiIlServer()
 
 def riavviaSeInattivo():
-    time.sleep(100)
-    bottoneRiavvio = drivers.find_element_by_xpath('//*[@id="restart"]')
-    popolato = False
-    if popolato == False:
-        print("attenzione, non c'è nessuno nel server da 5 minuti, lo devo riavviare")
-        bottoneRiavvio.click()
+    while vuoto = true:
+        giocatori = driver.find_element_by_xpath('/html/body/div[2]/main/section/div[3]/div[5]/div[2]/div[1]/div[1]/div[2]/div[2]').getText()
+        time.sleep(20)
+        bottoneRiavvio = drivers.find_element_by_xpath('//*[@id="restart"]')
+        popolato = False
+        if popolato == False:
+            print("attenzione, non c'è nessuno nel server da 5 minuti, lo devo riavviare")
+            bottoneRiavvio.click()
+        if str(giocatori) != "0/20":
+            vuoto = true
+        else:
+            vuoto = false
 
 def accendiIlServer():
     #avvia
@@ -77,8 +79,8 @@ def accendiIlServer():
     #controlla se è online, se è online continua ad eseguire il codice sotto
     online = False
     while online == False:
-        online = drivers.find_element_by_xpath('//*[@id="stop"]').is_displayed()
-    print("il sevrer è online")
+        online = drivers.find_element_by_xpath('/html/body/div[2]/main/section/div[3]/div[3]/div[1]/div/span[1]').is_displayed()
+    print("il server è online")
     riavviaSeInattivo()
 
 
