@@ -2,7 +2,7 @@ import os
 import time
 import selenium
 import discord
-import simple_colors
+import simple_colors as colore
 from bot import *
 from sys import platform
 from sergio import *
@@ -34,7 +34,7 @@ def connessioneAlServer(drivers, username, password):
     #controllo credenziali
     if drivers.title == "Servers | Aternos | Free Minecraft Server" or drivers.title == "Server | Aternos | Server Minecraft gratis":
         print()
-        print(simple_colors.green("loggato in aternos"))
+        print(colore.green("loggato in aternos"))
     elif drivers.title == "Login or Sign up | Aternos | Free Minecraft Server" or drivers.title == "Accedi o registrati | Aternos | Server Minecraft gratis":
         # stampa password sbagliata
         pass
@@ -48,7 +48,7 @@ def connessioneAlServer(drivers, username, password):
     accendiIlServer()
 
 def riavviaSeInattivo():
-    while vuoto = true:
+    while vuoto == true:
         giocatori = driver.find_element_by_xpath('/html/body/div[2]/main/section/div[3]/div[5]/div[2]/div[1]/div[1]/div[2]/div[2]').getText()
         time.sleep(20)
         bottoneRiavvio = drivers.find_element_by_xpath('//*[@id="restart"]')
@@ -66,8 +66,11 @@ def accendiIlServer():
     bottoneAvvio = drivers.find_element_by_xpath('//*[@id="start"]')
     bottoneAvvio.click()
     time.sleep(4)
-    confermaNotifiche = drivers.find_element_by_xpath('/html/body/div[2]/main/div/div/div/main/div/a[1]')
-    confermaNotifiche.click()
+    try:
+        confermaNotifiche = drivers.find_element_by_xpath('/html/body/div[2]/main/div/div/div/main/div/a[1]')
+        confermaNotifiche.click()
+    except:
+        print(colore.red("quancosa è andato storto, riprova"))
     #controlla se serve confermare
     divConfermaMostrato = False
     while divConfermaMostrato == False:

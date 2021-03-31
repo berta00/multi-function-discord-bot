@@ -1,0 +1,24 @@
+1617222861861	geckodriver	INFO	Listening on 127.0.0.1:39137
+1617222862866	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilect0D0p"
+1617222865044	Marionette	INFO	Listening on port 42715
+1617222865072	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1617223218099	geckodriver	INFO	Listening on 127.0.0.1:52199
+1617223218102	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1APuyx"
+1617223219589	Marionette	INFO	Listening on port 36439
+1617223219611	Marionette	WARN	TLS certificate errors will be ignored for this session
+1617223407512	Marionette	INFO	Stopped listening on port 36439
+1617223838984	geckodriver	INFO	Listening on 127.0.0.1:38295
+1617223839995	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiler0UcuQ"
+1617223841538	Marionette	INFO	Listening on port 40223
+1617223841600	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1617223887198	geckodriver	INFO	Listening on 127.0.0.1:50965
+1617223887203	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepLsS9r"
+1617223888708	Marionette	INFO	Listening on port 41313
+1617223888810	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 288: NS_ERROR_FAILURE: Should pass a non-null uri
