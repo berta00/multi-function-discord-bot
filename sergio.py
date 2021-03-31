@@ -30,7 +30,7 @@ def connessioneAlServer(drivers, username, password):
     input1.send_keys(username)
     input2.send_keys(password)
     input3.click()
-    time.sleep(1)
+    time.sleep(1.5)
     #controllo credenziali
     if drivers.title == "Servers | Aternos | Free Minecraft Server" or drivers.title == "Server | Aternos | Server Minecraft gratis":
         print()

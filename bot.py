@@ -29,15 +29,9 @@ async def serverOn(ctx):
     password = await client.wait_for('message')
     print("password messa")
 
-    await connessioneAlServer(drivers, username.content, password.content)
+    connessioneAlServer(drivers, username.content, password.content)
 
 @client.command()
 async def serverOff(ctx):
     await ctx.send("Okey capo")
     await esciDaAternos()
-
-@client.command()
-async def ruba(ctx):
-    await ctx.send("vado a rubare orologi ok")
-
-client.run(token)

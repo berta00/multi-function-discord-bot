@@ -22,3 +22,12 @@ Exiting due to channel error.
 1617223888708	Marionette	INFO	Listening on port 41313
 1617223888810	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: resource://gre/modules/URIFixup.jsm, line 288: NS_ERROR_FAILURE: Should pass a non-null uri
+1617225407355	geckodriver	INFO	Listening on 127.0.0.1:51727
+1617225407358	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileNbdGfZ"
+1617225409170	Marionette	INFO	Listening on port 39167
+1617225409295	Marionette	WARN	TLS certificate errors will be ignored for this session
+1617225454976	Marionette	INFO	Stopped listening on port 39167
+1617225474452	geckodriver	INFO	Listening on 127.0.0.1:53965
+1617225474456	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilegw1ms2"
+1617225476406	Marionette	INFO	Listening on port 42521
+1617225476461	Marionette	WARN	TLS certificate errors will be ignored for this session
