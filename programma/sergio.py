@@ -9,8 +9,6 @@ from sergio import *
 from selenium import webdriver
 from discord.ext import commands
 
-#sistem operativo qualiò
-
 global drivers
 
 if platform == "linux":
