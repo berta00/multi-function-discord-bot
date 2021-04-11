@@ -1,0 +1,79 @@
+1618165213473	geckodriver	INFO	Listening on 127.0.0.1:54415
+1618165216523	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\berta\\AppData\\Local\\Temp\\rust_mozprofileUeWtiC"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618165219597	Marionette	INFO	Listening on port 54423
+1618165219666	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://discord.com/assets/80d6598804f72dcd51e1.js, line 2: unreachable code after return statement
+JavaScript warning: https://discord.com/assets/80d6598804f72dcd51e1.js, line 2: unreachable code after return statement
+JavaScript warning: https://discord.com/assets/80d6598804f72dcd51e1.js, line 2: unreachable code after return statement
+JavaScript warning: https://discord.com/assets/80d6598804f72dcd51e1.js, line 2: unreachable code after return statement
+1618165403450	Marionette	INFO	Stopped listening on port 54423
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\berta\\AppData\\Local\\Temp\\rust_mozprofileMefvYN"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618165277620	Marionette	INFO	Listening on port 54488
+1618165277719	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://discord.com/assets/80d6598804f72dcd51e1.js, line 2: unreachable code after return statement
+JavaScript warning: https://discord.com/assets/80d6598804f72dcd51e1.js, line 2: unreachable code after return statement
+JavaScript warning: https://discord.com/assets/80d6598804f72dcd51e1.js, line 2: unreachable code after return statement
+JavaScript warning: https://discord.com/assets/80d6598804f72dcd51e1.js, line 2: unreachable code after return statement
+1618165404319	Marionette	INFO	Stopped listening on port 54488
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1618165430400	geckodriver	INFO	Listening on 127.0.0.1:54568
+1618165433446	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\berta\\AppData\\Local\\Temp\\rust_mozprofileb5jJvi"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618165435896	Marionette	INFO	Listening on port 54576
+1618165436123	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 5496, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/cfr Signature failed  TypeError: NetworkError when attempting to fetch resource.
+1618165437060	Marionette	INFO	Stopped listening on port 54576
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1618165725007	geckodriver	INFO	Listening on 127.0.0.1:54790
+1618165728054	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\berta\\AppData\\Local\\Temp\\rust_mozprofileN3DcQ1"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618165730524	Marionette	INFO	Listening on port 54798
+1618165730680	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://discord.com/assets/80d6598804f72dcd51e1.js, line 2: unreachable code after return statement
+JavaScript warning: https://discord.com/assets/80d6598804f72dcd51e1.js, line 2: unreachable code after return statement
+JavaScript warning: https://discord.com/assets/80d6598804f72dcd51e1.js, line 2: unreachable code after return statement
+JavaScript warning: https://discord.com/assets/80d6598804f72dcd51e1.js, line 2: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://discord.com"
+1618166065028	Marionette	INFO	Stopped listening on port 54798
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1618166081224	geckodriver	INFO	Listening on 127.0.0.1:54930
+1618166084273	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\berta\\AppData\\Local\\Temp\\rust_mozprofileTp4Rck"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618166086376	Marionette	INFO	Listening on port 54938
+1618166086412	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://discord.com/assets/80d6598804f72dcd51e1.js, line 2: unreachable code after return statement
+JavaScript warning: https://discord.com/assets/80d6598804f72dcd51e1.js, line 2: unreachable code after return statement
+JavaScript warning: https://discord.com/assets/80d6598804f72dcd51e1.js, line 2: unreachable code after return statement
+JavaScript warning: https://discord.com/assets/80d6598804f72dcd51e1.js, line 2: unreachable code after return statement
+1618166089812	Marionette	INFO	Stopped listening on port 54938
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1618166180122	geckodriver	INFO	Listening on 127.0.0.1:54987
+1618166183148	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\berta\\AppData\\Local\\Temp\\rust_mozprofileEL6A3m"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618166185526	Marionette	INFO	Listening on port 54996
+1618166185779	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://discord.com/assets/80d6598804f72dcd51e1.js, line 2: unreachable code after return statement
+JavaScript warning: https://discord.com/assets/80d6598804f72dcd51e1.js, line 2: unreachable code after return statement
+JavaScript warning: https://discord.com/assets/80d6598804f72dcd51e1.js, line 2: unreachable code after return statement
+JavaScript warning: https://discord.com/assets/80d6598804f72dcd51e1.js, line 2: unreachable code after return statement
+1618166213218	Marionette	INFO	Stopped listening on port 54996
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
