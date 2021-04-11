@@ -7,7 +7,6 @@ from sys import platform
 from selenium import webdriver
 
 #fa la aplicazione di discord
-
 global drivers
 
 def installazioneABC():
@@ -26,12 +25,24 @@ def installazioneABC():
     print()
 
     if platform == "linux":
-        locazioneDriver = "../" + os.getcwd() + "/geckodriver"
+        locazioneDriver = os.getcwd() + "programma\\geckodriver"
         drivers = webdriver.Firefox(executable_path=locazioneDriver)
         os.system("clear")
     elif platform == "win32" or platform == "win64":
-        locazioneDriver = os.getcwd() + "/geckodriver.exe"
-        drivers = webdriver.Firefox(executable_path=locazioneDriver)
+        locazioneInstallazione = os.getcwd()
+        locazioneDriverS = locazioneInstallazione.split("\\")
+        locazioneDriverS.remove("installazione")
+        locazioneDriverS.append("programma\\geckodriver.exe")
+        a = len(locazioneDriverS)
+        i = 0
+        driverL = ""
+        c = ""
+        while i < a:
+            c = str(locazioneDriverS[i])
+            driverL = driverL + c + "\\"
+            i = i + 1
+        print(driverL)
+        driver = webdriver.Firefox(executable_path=driverL)
 
     driver.get("https://discord.com/login?redirect_to=%2Fdevelopers%2Fapplications")
     time.sleep(1000)
