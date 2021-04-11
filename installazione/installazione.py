@@ -26,8 +26,22 @@ def installazioneABC():
     print()
 
     if platform == "linux":
-        locazioneDriver = os.getcwd() + "programma\\geckodriver"
-        drivers = webdriver.Firefox(executable_path=locazioneDriver)
+        locazioneInstallazione = os.getcwd()
+        locazioneDriverS = locazioneInstallazione.split("\\")
+        locazioneDriverS.remove("installazione")
+        locazioneDriverS.append("programma")
+        locazioneDriverS.append("geckodriver.exe")
+        a = len(locazioneDriverS)
+        a = a - 1
+        i = 0
+        driverL = ""
+        c = ""
+        while i < a:
+            c = str(locazioneDriverS[i])
+            driverL = driverL + c + "\\"
+            i = i + 1
+        driverL = driverL + "geckodriver"
+        driver = webdriver.Firefox(executable_path=driverL)
         os.system("clear")
     elif platform == "win32" or platform == "win64":
         locazioneInstallazione = os.getcwd()
