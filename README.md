@@ -14,7 +14,7 @@ I tried to make the installation as easy as possible, it is divided by operating
 <br>
 
 ### All commands: 
-(all commands have "ciro:" in front) 
+(all commands have "ciro: " in front) 
 
 |N°|Function|Command|
 |--|--------|-------|
