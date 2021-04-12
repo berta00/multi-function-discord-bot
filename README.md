@@ -13,8 +13,8 @@ I tried to make the installation as easy as possible, it is divided by operating
 <br>
 <br>
 
-### Tutti i comandi: 
-(tutti i comandi hanno "ciro: " davanti)
+### All commands: 
+(all commands have "ciro:" in front) 
 
 |N°|Function|Command|
 |--|--------|-------|
@@ -24,7 +24,7 @@ I tried to make the installation as easy as possible, it is divided by operating
 |4.|Play kechap by a mi me piace nutella|ciro: kechapNutella|
 <br>
 
-### Descrizione di tutti i comandi:  
+### Description of all commands:
 (it will open a firefox page that will do everything by itself, don't worry it's normal)
 
 |Command|Description|
