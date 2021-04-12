@@ -62,7 +62,7 @@ def installazioneABC():
         driver = webdriver.Firefox(executable_path=driverL)
 
     driver.get("https://discord.com/login?redirect_to=%2Fdevelopers%2Fapplications")
-    
+
     #login
     input1 = driver.find_element_by_xpath('/html/body/div/div[2]/div/div[2]/div/div/form/div/div/div[1]/div[3]/div[1]/div/div[2]/input')
     input2 = driver.find_element_by_xpath('/html/body/div/div[2]/div/div[2]/div/div/form/div/div/div[1]/div[3]/div[2]/div/input')

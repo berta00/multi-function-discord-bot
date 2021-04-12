@@ -12,11 +12,11 @@ from discord.ext import commands
 global drivers
 
 if platform == "linux":
-    locazioneDriver = os.getcwd() + "/geckodriver"
+    locazioneDriver = os.getcwd() + "/programma/driver/geckodriver"
     drivers = webdriver.Firefox(executable_path=locazioneDriver)
     os.system("clear")
 elif platform == "win32" or platform == "win64":
-    locazioneDriver = os.getcwd() + "/geckodriver.exe"
+    locazioneDriver = os.getcwd() + "/programma/driver/geckodriver.exe"
     drivers = webdriver.Firefox(executable_path=locazioneDriver)
 
 def connessioneAlServer(drivers, username, password):
