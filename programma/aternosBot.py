@@ -5,8 +5,8 @@ import discord
 import simple_colors as colore
 from bot import *
 from sys import platform
-from sergio import *
 from selenium import webdriver
+from aternosBot import *
 from discord.ext import commands
 
 global drivers
